@@ -4,9 +4,7 @@ import { motion } from "framer-motion";
 import { ExternalLink, Github, Eye } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import PageTransition from "@/components/PageTransition";
-import { useNavigate } from "react-router-dom";
 
-const navigate = useNavigate();
 const projects = [
   {
     title: "Cramly AI - web content summarizer",
@@ -232,7 +230,7 @@ const Projects = () => {
           >
             <h3 className="text-2xl font-space-grotesk font-bold mb-4">Interested in working together?</h3>
             <p className="text-muted-foreground mb-8">Let's create something amazing together.</p>
-            <Button className="btn-hero" onClick={() => navigate("/contact")}>
+            <Button className="btn-hero" onClick={() => (window.location.href = "/contact")}>
               Get In Touch
             </Button>
           </motion.div>
