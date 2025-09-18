@@ -77,37 +77,37 @@ const About = () => {
                     <CarouselContent>
                       {[
                         {
-                          src: "/selva.jpg",
+                          src: "/selva.WebP",
                           title: "B.Tech - IT • Java FSE",
                           subtitle: "Building scalable applications with modern technologies",
                         },
                         {
-                          src: "/vikatan.jpg",
+                          src: "/vikatan.WebP",
                           title: "Writer - Journalist at Vikatan Magazine",
                           subtitle: "Forging stories to be a voice for the voiceless",
                         },
                         {
-                          src: "/1.jpg",
+                          src: "/1.WebP",
                           title: "Volleyball Player",
                           subtitle: "Hardwork • Discipline • Resilience",
                         },
                         {
-                          src: "/2.jpg",
+                          src: "/2.WebP",
                           title: "Setter",
                           subtitle: "Communication • Strategy • Leadership",
                         },
                         {
-                          src: "/3.jpg",
+                          src: "/3.WebP",
                           title: "Team Player",
                           subtitle: "Focus • Consistency • Sportsmanship",
                         },
                         {
-                          src: "/4.jpg",
+                          src: "/4.WebP",
                           title: "Athlete",
                           subtitle: "Endurance • Determination • Mindset",
                         },
                         {
-                          src: "/5.jpg",
+                          src: "/5.WebP",
                           title: "On and Off Court",
                           subtitle: "Practice • Progress • Perform",
                         },
@@ -241,7 +241,7 @@ const About = () => {
               <div className="relative">
                 <div className="w-80 h-80 mx-auto lg:mx-0 rounded-2xl bg-gradient-primary p-1">
                   <div className="w-full h-full bg-background rounded-2xl flex items-center justify-center">
-                    <img src="/selva1.jpg" alt="Selvavignesh" className="w-full h-full object-cover rounded-2xl" />
+                    <img src="/selva1.WebP" alt="Selvavignesh" className="w-full h-full object-cover rounded-2xl" />
                   </div>
                 </div>
                 <div className="absolute -top-4 -right-4 w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center">
