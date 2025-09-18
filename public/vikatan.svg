@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#0B0B12"/>
+  <rect x="40" y="40" width="1120" height="550" rx="24" fill="url(#g)" opacity="0.18"/>
+  <g fill="#fff" opacity="0.9">
+    <text x="80" y="160" font-family="'Space Grotesk', Arial, sans-serif" font-size="64" font-weight="700">Vikatan</text>
+    <text x="80" y="220" font-family="Inter, Arial, sans-serif" font-size="28" opacity="0.9">Student Journalist • Print Features • Reporting</text>
+  </g>
+  <g opacity="0.12">
+    <circle cx="1050" cy="120" r="90" fill="#7C3AED"/>
+    <circle cx="1020" cy="480" r="60" fill="#22D3EE"/>
+  </g>
+  <text x="80" y="300" font-family="Inter, Arial, sans-serif" font-size="20" fill="#D6D7DE" opacity="0.95">
+    Featured: Field notes from assignments, editorial discipline, and balancing deadlines with lectures.
+  </text>
+</svg>
+
+
+
+
+
+
+
