@@ -228,7 +228,7 @@ const Projects = () => {
           >
             <h3 className="text-2xl font-space-grotesk font-bold mb-4">Interested in working together?</h3>
             <p className="text-muted-foreground mb-8">Let's create something amazing together.</p>
-            <Button className="btn-hero" onClick={() => (window.location.href = "/contact")}>
+            <Button className="btn-hero" onClick={() => (window.location.href = "/Contact")}>
               Get In Touch
             </Button>
           </motion.div>
