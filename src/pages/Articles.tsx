@@ -36,7 +36,7 @@ const Articles = () => {
       category: "React",
       featured: false,
       tags: ["AI", "Jobs", "MAANG", "Tech", "Vogue"],
-      image: "/AI.jpeg",
+      image: "/AI.png",
       url: "https://imselvavignesh.blogspot.com/2025/09/is-ai-really-stealing-our-jobs-2025.html"
     },
     {
@@ -47,7 +47,7 @@ const Articles = () => {
       category: "Anthropology, Psychology, Sociology, Philosophy",
       featured: false,
       tags: ["Anthropology", "Psychology", "Sociology", "Philosophy"],
-      image: "/beauty.jpg",
+      image: "/beauty.png",
       url: "https://imselvavignesh.blogspot.com/2025/06/beautiful-yet-unseen.html"
     },
     {
@@ -58,7 +58,7 @@ const Articles = () => {
       category: "History, Geography, Politics",
       featured: false,
       tags: ["History", "Geography", "Politics"],
-      image: "/wall.jpeg",
+      image: "/wall.png",
       url: "https://imselvavignesh.blogspot.com/2025/06/greatest-walls-made-by-humans.html"
     },
     {
@@ -69,7 +69,7 @@ const Articles = () => {
       category: "History, Geography, Politics",
       featured: false,
       tags: ["History", "Geography", "Politics"],
-      image: "/gaza.jpeg",
+      image: "/gaza.png",
       url: "https://imselvavignesh.blogspot.com/2025/05/gaza-20232025-genocide-unfolding-before.html"
     },
     {
@@ -80,7 +80,7 @@ const Articles = () => {
       category: "psychology, humans",
       featured: false,
       tags: ["anthropology", "psychology"],
-      image: "/let.jpeg",
+      image: "/let.png",
       url: "https://imselvavignesh.blogspot.com/2024/03/letem-go.html"
     }
   ];
@@ -94,7 +94,7 @@ const Articles = () => {
       category: "Journalism",
       featured: false,
       tags: ["Reporting", "Editing", "Student journalist", "caste discrimination", "social justice"],
-      image: "/CAS.avif",
+      image: "/CAS.png",
       url: "https://www.vikatan.com/government-and-politics/governance/murderous-attack-and-honor-killing-threats-trichy-police-urge-talks"
     },
     {
@@ -105,7 +105,7 @@ const Articles = () => {
       category: "Sports Journalism",
       featured: false,
       tags: ["Sports", "Narrative", "Vikatan", "M.S.Dhoni", "Retirement", "BCCI", "India"],
-      image: "Dhoni.avif",
+      image: "Dhoni.png",
       url: "https://sports.vikatan.com/cricket/aakash-chopra-says-dhoni-will-not-take-head-coach-charge-for-india"
     },
     {
@@ -116,7 +116,7 @@ const Articles = () => {
       category: "Opinion",
       featured: false,
       tags: ["politics", "Tamilnadu", "NTK", "VCK", "Thirumavalavan"],
-      image: "/NTK.avif",
+      image: "/NTK.png",
       url: "https://www.vikatan.com/government-and-politics/governance/thiruma-betrays-the-people-who-trusted-him-ntk-vennila-thayumanavan"
     }
   ];
@@ -256,7 +256,7 @@ const Articles = () => {
             >
               <div className="relative group rounded-2xl overflow-hidden h-64 md:h-72 bg-muted/30">
                 <img
-                  src="/vikatanid.jpg"
+                  src="/vikatanid.png"
                   alt="Vikatan Press ID"
                   className="absolute inset-0 w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-500"
                   onError={(e) => { (e.currentTarget as HTMLImageElement).src = "/vikatan.svg"; }}
@@ -267,7 +267,7 @@ const Articles = () => {
 
               <div className="relative group rounded-2xl overflow-hidden h-64 md:h-72 bg-muted/30 md:col-span-2">
                 <img
-                  src="/vikatan.jpg"
+                  src="/vikatan.png"
                   alt="Selvavignesh G R"
                   className="absolute inset-0 w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-500"
                   onError={(e) => { (e.currentTarget as HTMLImageElement).src = "/vikatan.svg"; }}
@@ -287,7 +287,7 @@ const Articles = () => {
             >
               <div className="flex items-center gap-4">
                 <div className="h-12 w-12 rounded-full overflow-hidden bg-muted">
-                  <img src="/vikatan1.jpg" alt="Selvavignesh" className="h-full w-full object-cover" onError={(e) => { (e.currentTarget as HTMLImageElement).src = "/placeholder.svg"; }} />
+                  <img src="/vikatan1.png" alt="Selvavignesh" className="h-full w-full object-cover" onError={(e) => { (e.currentTarget as HTMLImageElement).src = "/placeholder.svg"; }} />
                 </div>
                 <div>
                   <div className="text-sm text-muted-foreground">LinkedIn Story</div>
