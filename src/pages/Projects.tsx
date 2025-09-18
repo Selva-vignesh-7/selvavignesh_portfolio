@@ -4,10 +4,6 @@ import { Button } from "@/components/ui/button";
 import PageTransition from "@/components/PageTransition";
 import { useNavigate } from "react-router-dom";
 
-const Projects = () => {
-  const navigate = useNavigate();
-
-
  
 
 
@@ -238,7 +234,7 @@ const Projects = () => {
             <h3 className="text-2xl font-space-grotesk font-bold mb-4">Interested in working together?</h3>
             <p className="text-muted-foreground mb-8">Let's create something amazing together.</p>
             <Link to="/Contact">
-            <Button className="btn-hero" onClick={() => navigate("/Contact")}>
+            <Button className="btn-hero" onClick={() => (window.location.href = "/Contact")}>
               Get In Touch
             </Button>
             </Link>
