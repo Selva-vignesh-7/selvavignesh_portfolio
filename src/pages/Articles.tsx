@@ -36,7 +36,7 @@ const Articles = () => {
       category: "React",
       featured: false,
       tags: ["AI", "Jobs", "MAANG", "Tech", "Vogue"],
-      image: "./public/AI.png",
+      image: "/public/AI.png",
       url: "https://imselvavignesh.blogspot.com/2025/09/is-ai-really-stealing-our-jobs-2025.html"
     },
     {
