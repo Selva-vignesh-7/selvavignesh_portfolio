@@ -241,7 +241,7 @@ const About = () => {
               <div className="relative">
                 <div className="w-80 h-80 mx-auto lg:mx-0 rounded-2xl bg-gradient-primary p-1">
                   <div className="w-full h-full bg-background rounded-2xl flex items-center justify-center">
-                    <img src="/selva-Copy.png" alt="Selvavignesh" className="w-full h-full object-cover rounded-2xl" />
+                    <img src="/selva1.png" alt="Selvavignesh" className="w-full h-full object-cover rounded-2xl" />
                   </div>
                 </div>
                 <div className="absolute -top-4 -right-4 w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center">
