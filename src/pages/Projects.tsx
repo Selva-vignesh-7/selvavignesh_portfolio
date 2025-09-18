@@ -26,7 +26,7 @@ const projects = [
     title: "EDA - Layoffs Data Analysis",
     description: "Cleaned the raw data and performed Exploratory Data Analysis (EDA) of layoffs data to identify patterns and trends in the industry.",
     tech: ["MySQL", "Excel"],
-    image: "/EDA.jpeg",
+    image: "/EDA.png",
     github: "https://github.com/Selva-vignesh-7/EDA_on_layoffs",
     live: "https://github.com/Selva-vignesh-7/EDA_on_layoffs",
     featured: true
@@ -44,7 +44,7 @@ const projects = [
     title: "Safe Crypto Stocks",
     description: "SafeCryptoStocks is a stock market platform offering advanced tools for portfolio management and market analysis. Key features include:- Real-time market data visualization for informed investment decisions Intuitive dashboard with live stock performance, portfolio insights, and news updates.",
     tech: ["Spring", "React", "REST API", "MySQL"],
-    image: "/crypto.jpg",
+    image: "/crypto.png",
     github: "https://github.com/Selva-vignesh-7/SafeCryptoStocks",
     live: "https://github.com/Selva-vignesh-7/SafeCryptoStocks",
     featured: true
