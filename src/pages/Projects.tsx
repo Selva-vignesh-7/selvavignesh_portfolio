@@ -2,7 +2,14 @@ import { motion } from "framer-motion";
 import { ExternalLink, Github, Eye } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import PageTransition from "@/components/PageTransition";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
+const Projects = () => {
+  const navigate = useNavigate();
+
+
+ 
+
 
 
 const projects = [
@@ -231,7 +238,7 @@ const Projects = () => {
             <h3 className="text-2xl font-space-grotesk font-bold mb-4">Interested in working together?</h3>
             <p className="text-muted-foreground mb-8">Let's create something amazing together.</p>
             <Link to="/Contact">
-            <Button className="btn-hero" onClick={() => (window.location.href = "/Contact")}>
+            <Button className="btn-hero" onClick={() => navigate("/Contact")}>
               Get In Touch
             </Button>
             </Link>
