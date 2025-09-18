@@ -1,4 +1,4 @@
-what is the error that causes 404 when clicking the get in touch button
+
 
 import { motion } from "framer-motion";
 import { ExternalLink, Github, Eye } from "lucide-react";
